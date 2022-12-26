@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <title>Поиск по фото</title>
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<!-- navbar -->
+
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <nav class="nav">
+                <button class="btn active" type="button" data-scroll="#home" id="btn_home">Home</buttom>
+                <button class="btn " type="button" data-scroll="#search"
+                id="btn_search">Search</button>
+                <button class="btn " type="button" data-scroll="#about"
+                id="btn_about">About</button>
+                <div class="slide"></div>
+            </nav>
+        </div>
+    </div>
+</header> 
+
+<!-- home -->
+
+<main>
+    <section id="home">
+        <div id="bg" class="intro" >
+            <div class="intro__container">
+                <div class="intro__inner">
+                    <h1 class="intro__title animItems">
+                        Найди человека <p>по его фотографии<p>
+                    </h1>
+                    <button class="intro__btn animItems" type="button" data-scroll="#search">найти</button>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- search -->
+    <section id='search'>
+        <div class="search">
+            <div class="search__container">
+                <div class="search__inner">
+                    <div class="search__item">
+                        <button class="search__btn" type="button">
+                            <img class="search__install_1" src="/assets/img/icon/install_1.png" alt="">
+                            <!-- <div class="search__hover">
+                                <div class="search__title">Загрузите фото</div>
+                                <div class="search__text">нажмите ЛКМ чтобы выбрать фото</div>
+                            </div> -->
+                        </button>
+
+                    
+                        <button class="search__install_btn" type="button">
+                            <img class="arrow" src="/assets/img/icon/arrow.png" alt="">
+                            <div class="search__title">Загрузите фото</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- about -->
+    <section>
+        <div class="about" id='about'>
+            <div class="about__container">
+                <div class="about__inner">
+                    <h1 class="about__title">Сайт является проектом для портфолио.
+                        Весь код вы можете найти на моём 
+                        GitHub в репозитории</h1>
+
+                    <h2 class="about__subtitle">Если у вас есть желание связаться со мной,
+                        пишите личку в Вконтакте</h2>
+                </div>
+            </div>
+        </div>
+        <!-- footer-links -->
+    </section>
+        <div class="footer">
+            <div class="footer__inner">
+                <a class="link" href="https://vk.com/youarefuckingretard_tv" targer = "blank">
+                    <img class="link__icon" src="/assets/img/icon/vk.png" alt="">
+                </a>
+                <a class="link" href="https://github.com/LBSAlexey" targer = "blank">
+                    <img class="link__icon" src="/assets/img/icon/Github.png" alt="">
+                </a>
+            </div>
+        </div>
+</main>
+
+<script src="/js/parallax.js"></script>
+
+<script src="/js/app.js"></script>
+
+<script src="/js/animation.js"></script>
+
+</body>
+</html>
